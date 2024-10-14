@@ -7,7 +7,7 @@ const Main = lazy(()=>import("../pages/MainPage"))
 const About = lazy(()=>import("../pages/AboutPage"))
 const Todo = lazy(()=>import("../pages/Todo"))
 const ListPage = lazy(()=>import("../pages/ListPage"))
-
+ 
 const root = createBrowserRouter([
     {
         path:"",
